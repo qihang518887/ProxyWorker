@@ -9,7 +9,7 @@ const upstream_path = '/'
 // allowed_paths：允许的路径
 //const allowed_paths = [/^\/allowed_path1$/, /^\/allowed_path2/, /^\/allowed_path3/];
 // 反代OneDrive
-const allowed_paths = [/^\/sites\/\w+\/_layouts\/\d+\/download\.aspx(\?.*)?$/,];
+const allowed_paths = [/^\/\/personal\/\w+\/_layouts\/\d+\/download\.aspx(\?.*)?$/,];
 
 const blocked_region = ['KP', 'SY', 'PK', 'CU', 'UK']
  
